@@ -56,7 +56,7 @@ sqlplus hp/본인비밀번호@localhost/XE @database/oracle/verify_menu_korean_s
 
 ## 백엔드 연결
 
-`Hospital-backend`의 `application.yml` 또는 환경 변수:
+[Hospital-backend](https://github.com/tldmsdl1341-ops/Hospital-backend)의 `application.yml` 또는 환경 변수:
 
 | 변수 | 예시 |
 |------|------|
