@@ -6,7 +6,7 @@
 
 - Node.js 20+
 - Oracle 11g XE (또는 호환)
-- [Hospital Backend](https://github.com) — 별도 저장소 또는 동일 조직의 `hospital-backend`
+- **Hospital Backend** (`Hospital-backend` 로컬 프로젝트) — Spring Boot, 포트 9695. 백엔드는 별도 저장소로 올리거나 팀에 zip 공유.
 
 ## 빠른 시작
 
