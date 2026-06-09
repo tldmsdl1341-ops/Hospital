@@ -1,12 +1,10 @@
 import { createSlice, type PayloadAction } from "@reduxjs/toolkit";
 import type { NavUser } from "./NavTypes";
 
-/** Nav 상단바 사용자 상태 */
 type NavState = {
   user: NavUser | null;
 };
 
-/** 로그인 API 연동 전까지 Nav에 표시할 임시 계정 */
 const mockUser: NavUser = {
   loginId: "hospital",
   name: "권수근",

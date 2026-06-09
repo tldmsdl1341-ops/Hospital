@@ -2,7 +2,6 @@
 
 import { Typography } from "@mui/material";
 
-/** 메인(/) 페이지 — 사이드바 고정 레이아웃 안의 기본 콘텐츠 */
 export default function HomePage() {
   return (
     <>

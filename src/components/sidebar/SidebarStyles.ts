@@ -1,6 +1,5 @@
 import type { SxProps, Theme } from "@mui/material";
 
-/** Sidebar 컨테이너·헤더·로딩/에러 메시지 스타일 */
 export const sidebarRootSx = (width: number): SxProps<Theme> => ({
   display: "flex",
   flexDirection: "column",

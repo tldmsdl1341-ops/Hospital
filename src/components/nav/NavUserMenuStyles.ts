@@ -1,6 +1,5 @@
 import type { SxProps, Theme } from "@mui/material";
 
-/** NavUserMenu 전용 MUI sx 스타일 모음 */
 export const loginButtonSx: SxProps<Theme> = {
   borderColor: "var(--line)",
   color: "var(--brand-strong)",

@@ -1,9 +1,7 @@
 import type { SxProps, Theme } from "@mui/material";
 
-/** 사이드바 고정 너비(px) — md 이상에서 contentWrap ml과 동기화 */
 export const SIDEBAR_WIDTH = 240;
 
-/** 전체 페이지 배경 그라데이션 */
 export const layoutRootSx: SxProps<Theme> = {
   minHeight: "100vh",
   overflowX: "hidden",
@@ -15,7 +13,6 @@ export const layoutRootSx: SxProps<Theme> = {
   backgroundAttachment: "fixed",
 };
 
-/** md 이상: 좌측 고정 사이드바 영역 */
 export const sidebarWrapSx = (sidebarWidth: number): SxProps<Theme> => ({
   position: { xs: "static", md: "fixed" },
   top: 0,
@@ -26,7 +23,6 @@ export const sidebarWrapSx = (sidebarWidth: number): SxProps<Theme> => ({
   zIndex: 1100,
 });
 
-/** 사이드바 너비만큼 왼쪽 여백을 두는 메인 콘텐츠 영역 */
 export const contentWrapSx = (sidebarWidth: number): SxProps<Theme> => ({
   ml: { xs: 0, md: `${sidebarWidth}px` },
   minHeight: "100vh",

@@ -1,6 +1,5 @@
 import type { SxProps, Theme } from "@mui/material";
 
-/** Nav AppBar 스타일 (반투명 + blur) */
 export const navAppBarSx: SxProps<Theme> = {
   bgcolor: "rgba(255,255,255,0.96)",
   borderBottom: "1px solid rgba(15, 32, 48, 0.08)",

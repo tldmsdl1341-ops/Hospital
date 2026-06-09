@@ -1,6 +1,5 @@
 import type { SxProps, Theme } from "@mui/material";
 
-/** depth(0=최상위, 1+=하위)에 따른 SidebarItem 버튼·아이콘·라벨 스타일 */
 export const childDotIconSx: SxProps<Theme> = {
   fontSize: 8,
 };

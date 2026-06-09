@@ -34,7 +34,6 @@ import {
   userTriggerSx,
 } from "./NavUserMenuStyles";
 
-/** Nav 우측 사용자 드롭다운 — 미로그인 시 로그인 버튼 표시 */
 export default function NavUserMenu() {
   const dispatch = useDispatch();
   const user = useSelector((state: RootState) => state.nav.user);

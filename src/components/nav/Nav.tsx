@@ -14,7 +14,6 @@ import {
   navToolbarSx,
 } from "./NavStyles";
 
-/** 상단 AppBar — 브랜드 로고(좌) + 사용자 메뉴(우) */
 export default function Nav() {
   return (
     <AppBar position="sticky" elevation={0} sx={navAppBarSx}>

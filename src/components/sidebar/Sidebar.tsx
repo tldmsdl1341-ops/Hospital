@@ -22,7 +22,6 @@ type SidebarProps = {
   width?: number;
 };
 
-/** 좌측 사이드바 — 마운트 시 API로 메뉴 로드, 현재 경로에 맞게 자동 펼침 */
 export default function Sidebar({ width = 240 }: SidebarProps) {
   const pathname = usePathname();
   const dispatch = useDispatch();

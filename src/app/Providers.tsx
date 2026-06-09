@@ -5,7 +5,6 @@ import { CssBaseline, ThemeProvider, createTheme } from "@mui/material";
 import { Provider } from "react-redux";
 import { store } from "@/store/Store";
 
-/** MUI 테마 — Pretendard 기본 폰트, 12px border-radius */
 const theme = createTheme({
   typography: {
     fontFamily:
@@ -14,7 +13,6 @@ const theme = createTheme({
   shape: { borderRadius: 12 },
 });
 
-/** MUI + Redux Provider 래퍼 (Client Component) */
 export default function Providers({ children }: { children: React.ReactNode }) {
   return (
     <AppRouterCacheProvider options={{ key: "mui" }}>

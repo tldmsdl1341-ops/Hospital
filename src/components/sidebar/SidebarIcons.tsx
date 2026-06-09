@@ -9,7 +9,6 @@ import PersonRoundedIcon from "@mui/icons-material/PersonRounded";
 import PolicyIcon from "@mui/icons-material/Policy";
 import TaskAltIcon from "@mui/icons-material/TaskAlt";
 
-/** DB AUTH_MENU.ICON 값 → MUI 아이콘 */
 export const sidebarIconMap: Record<string, ReactNode> = {
   Home: <HomeRoundedIcon fontSize="small" />,
   People: <PersonRoundedIcon fontSize="small" />,

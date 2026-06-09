@@ -30,7 +30,6 @@ type SidebarItemProps = {
   onToggle: (id: number) => void;
 };
 
-/** 재귀 메뉴 항목 — leaf는 Link, 그룹은 Collapse 토글 */
 export default function SidebarItem({
   item,
   pathname,

@@ -11,7 +11,6 @@ import {
   sidebarWrapSx,
 } from "./MainLayoutStyles";
 
-/** 좌측 Sidebar + 우측(Nav + 페이지 콘텐츠) 2단 레이아웃 */
 export default function MainLayout({ children }: { children: React.ReactNode }) {
   return (
     <Box sx={layoutRootSx}>

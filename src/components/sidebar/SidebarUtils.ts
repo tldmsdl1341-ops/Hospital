@@ -1,6 +1,5 @@
 import type { SidebarItem } from "@/features/sidebar/SidebarTypes";
 
-/** 현재 URL과 항목 path가 같은지 확인 */
 export function isItemActive(
   pathname: string,
   path: string | null | undefined,
@@ -12,7 +11,6 @@ export function isItemActive(
   return false;
 }
 
-/** 자식 중에 현재 페이지에 해당하는 항목이 있는지 */
 export function hasActiveChild(pathname: string, item: SidebarItem): boolean {
   if (!item.children?.length) return false;
 
@@ -23,7 +21,6 @@ export function hasActiveChild(pathname: string, item: SidebarItem): boolean {
   );
 }
 
-/** 현재 페이지 때문에 펼쳐야 할 부모 id 목록 */
 export function getOpenIds(pathname: string, items: SidebarItem[]): number[] {
   const openIds: number[] = [];
 
